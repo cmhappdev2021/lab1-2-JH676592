@@ -1,6 +1,6 @@
 // Declare a constant called friends to represent the number of friends you have on social media. Give it a value between 50 and 1000. Print out the value by referencing your constant.
 let friends = 75
-print(friends)clear
+print(friends)
 
 // Now assume you go through and remove friends that aren't active on social media. Attempt to update your friends constant to a lower number than it currently is. Observe what happens and then move to the next step.
 print(friends) // Cannot change the value of a constant.
@@ -22,13 +22,14 @@ var schooling = 11
 print(schooling)
 
 // Now imagine you just completed an additional year of school, and update the schooling variable accordingly. Print schooling to the console.
-
+schooling = schooling + 1
+print(schooling)
 
 // Does the above code compile? Why is this different than trying to update a constant? Print your explanation to the console using the print function.
-
+print("Yes, it compiles because it is a variable and is able to change values unlike a constant.")
 
 // Create a variable called steps that will keep track of the number of steps you take throughout the day. Set its initial value to 0 to represent the step count first thing in the morning. Print steps to the console.
-
+var steps = 0
 
 // Now assume the tracker has been keeping track of steps all morning, and you want to show the user the latest step count. Update steps to be 2000. Print steps to the console. Then print "Good job! You're well on your way to your daily goal."
 
