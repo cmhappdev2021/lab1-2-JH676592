@@ -46,7 +46,11 @@ Day created: The day of the month the post was created
 
 For each of the metrics above, declare either a constant or a variable and assign it a value corresponding to a hypothetical post. Be sure to use proper naming conventions.
 */
-
+var likes: Int
+var comments: Int
+let yearCreated: Int
+let monthCreated: Int
+let dayCreated: Int
 
 /* There are all sorts of things that a fitness tracking app needs to keep track of in order to display the right information to the user. Similar to the last exercise, declare either a constant or a variable for each of the following items, and assign each a sensible value. Be sure to use proper naming conventions.
 
@@ -56,6 +60,12 @@ Number of steps taken today: The number of steps that a user has taken today
 Goal number of steps: The user's goal for number of steps to take each day
 Average heart rate: The user's average heart rate over the last 24 hours
 */
+
+let name = "Jackson Holcomb"
+var age = 17
+var stepsToday = 2500
+let goalSteps = 5000
+var averageHeartRate = 80
 
 // Now go back and add a line after each constant or variable declaration. On those lines, print a statement explaining why you chose to declare the piece of information as a constant or variable.
 
