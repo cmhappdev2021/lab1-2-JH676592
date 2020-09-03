@@ -61,49 +61,62 @@ Goal number of steps: The user's goal for number of steps to take each day
 Average heart rate: The user's average heart rate over the last 24 hours
 */
 
-let name = "Jackson Holcomb" print("Your name is permenant, so it is a constant")
-var age = 17 print("Your age changes as life goes on, so it is a varible")
-var stepsToday = 2500 print("Your steps will change the more you walk, so it is a varible")
-let goalSteps = 5000 print("Your goal will not change, so it is a constant")
-var averageHeartRate = 80 print("The average heart rate can change as the 24 hours go on.")
+let nameOfUser = "Jackson Holcomb"
+print("Your name is permenant, so it is a constant")
+var age = 17
+print("Your age changes as life goes on, so it is a varible")
+var stepsToday = 2_500
+print("Your steps will change the more you walk, so it is a varible")
+let goalStepsNum = 5_000
+print("Your goal will not change, so it is a constant")
+var averageHeartRate = 80
+print("The average heart rate can change as the 24 hours go on.")
 
 // Now go back and add a line after each constant or variable declaration. On those lines, print a statement explaining why you chose to declare the piece of information as a constant or variable.
 
 
 // Type Safety
 // Declare two variables, one called firstDecimal and one called secondDecimal. Both should have decimal values. Look at both of their types by holding Option and clicking on the variable name.
-
+var firstDecimal = 5.8
+var secondDecimal = 5.3
 
 // Declare a variable called trueOrFalse and give it a boolean value. Try to assign it to firstDecimal like so: firstDecimal = trueOrFalse. Does it compile? Print a statement to the console explaining why not, and remove the line of code that will not compile.
-
+var trueOrFalse = true
+print("No, it does not compile because you cannot set variables to different types. They have to stick to their first assigned type.")
 
 // Declare a variable and give it a string value. Then try to assign it to firstDecimal. Does it compile? Print a statement to the console explaining why not, and remove the line of code that will not compile.
-
+var stringVariable = "Test string value"
+print("No, it does not compile because you cannot set variables to different types. They have to stick to their first assigned type.")
 
 // Finally, declare a variable with a whole number value. Then try to assign it to firstDecimal. Why won't this compile even though both variables are numbers? Print a statement to the console explaining why not, and remove the line of code that will not compile.
-
+var wholeNumber = 5;
+print("Even though both are numbers, one is a double and the other is an integer. This means they are different types and their values cannot be assigned to a variable associated with a different type.")
 
 // You have declared a number of constants and variables to keep track of fitness information. Declare one more variable with a boolean value called hasMetStepGoal.
-
+var hasMetStepGoal = false
 
 // When you declared a constant for goal number of steps and a variable for current step count, you likely assigned each a value in the thousands. This can be difficult to read. Redeclare this constant and variable and, when assigning each a value in the thousands, format the number so that it is more readable.
-
+print("Completed")
 
 // Declare a variable called name of type String, but do not give it a value. Print name to the console. Does the code compile? Remove any code that will not compile.
-
+var name: String
+print("No, it does not compile because there is no value associated with it.")
 
 // Now assign a value to name, and print it to the console.
-
+name = "Jackson"
+print(name)
 
 // Declare a variable called distanceTraveled and set it to 0. Do not give it an explicit type.
-
+var distanceTraveled: Double = 0
 
 // Now assign a value of 54.3 to distanceTraveled. Does the code compile? Go back and set an explicit type on distanceTraveled so the code will compile.
-
+distanceTraveled = 54.3
+print("No the code does not compile because you are assigning a double type to an int type.")
 
 // You decide that your fitness tracking app should show the user what percentage of his/her goal has been achieved so far today. Declare a variable called percentCompleted and set it to 0. Do not explicity assign it a type.
-
+var percentCompleted: Double = 0
 
 // Imagine that partway through the day a user has taken 3,467 steps out of the 10,000 step goal. This means he/she is 34.67% of the way to his/her goal. Assign 34.67 to percentCompleted. Does the code compile? Go back and explicity assign a type to percentCompleted that will allow the code to compile.
-
+percentCompleted = 34.67
+print("No the code does not compile because you are assigning a double type to an int type.")
 
