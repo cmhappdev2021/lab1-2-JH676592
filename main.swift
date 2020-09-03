@@ -61,11 +61,11 @@ Goal number of steps: The user's goal for number of steps to take each day
 Average heart rate: The user's average heart rate over the last 24 hours
 */
 
-let name = "Jackson Holcomb"
-var age = 17
-var stepsToday = 2500
-let goalSteps = 5000
-var averageHeartRate = 80
+let name = "Jackson Holcomb" print("Your name is permenant, so it is a constant")
+var age = 17 print("Your age changes as life goes on, so it is a varible")
+var stepsToday = 2500 print("Your steps will change the more you walk, so it is a varible")
+let goalSteps = 5000 print("Your goal will not change, so it is a constant")
+var averageHeartRate = 80 print("The average heart rate can change as the 24 hours go on.")
 
 // Now go back and add a line after each constant or variable declaration. On those lines, print a statement explaining why you chose to declare the piece of information as a constant or variable.
 
